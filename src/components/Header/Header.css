@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 7rem;
+}
+
+.header-menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: white;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.header-menu>li:hover {
+    cursor: pointer;
+    color: var(--purple);
+}
+
+
+@media screen and (max-width: 768px) {
+    .header>:nth-child(2){
+        position: fixed;
+        right: 2rem;
+        z-index: 99;
+    }
+
+    .header-menu{
+        flex-direction: column;
+        background-color: var(--appColor);
+        opacity: .97;
+        padding: 2rem;
+        box-shadow: 2px 2px 4px #0000005b;
+        border-radius: 8px;
+    }
+    
+}
