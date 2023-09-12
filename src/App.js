@@ -9,8 +9,6 @@ import Testimonials from './components/Testimonials/Testimonials';
 import WhatsAppButton from './components/WppButton/WppButton';
 
 
-
-
 function App() {
   return (
     <div className="App">

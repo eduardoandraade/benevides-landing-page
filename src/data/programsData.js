@@ -1,7 +1,6 @@
 export const programsData = [
   {
-    image: (
-      <svg
+    image: <svg
         width="16"
         height="15"
         viewBox="0 0 16 15"
@@ -13,7 +12,7 @@ export const programsData = [
           
         />
       </svg>
-    ),
+    ,
     heading: "Treinamento de Força",
     details:
       "Neste programa, você é treinado para melhorar sua força por meio de diversos exercícios.",
